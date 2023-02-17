@@ -1,7 +1,8 @@
-import glob
+from pathlib import Path
+
 import os
 
-files = glob.glob("*.JPG")
+files = Path().glob("*.jpg")
 label = "a"
 
 for i, file in enumerate(files):
